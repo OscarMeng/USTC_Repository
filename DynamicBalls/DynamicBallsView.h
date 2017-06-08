@@ -7,7 +7,7 @@
 class CDynamicCurve;
 class CCurveData;
 class CControlView;
-//class CDynamicBallsDoc;
+class CDynamicBallsDoc;
 class CDynamicBallsView : public CScrollView
 {
 protected: // create from serialization only
@@ -72,8 +72,8 @@ public:
 	void	ZoomInOut(double dZoom,CPoint ptCenter);
 };
 
-#ifndef _DEBUG  // debug version in DynamicBallsView.cpp
-inline CDynamicBallsDoc* CDynamicBallsView::GetDocument() const
-   { return reinterpret_cast<CDynamicBallsDoc*>(m_pDocument); }
-#endif
-
+//#ifndef _DEBUG  // debug version in DynamicBallsView.cpp
+//inline CDynamicBallsDoc* CDynamicBallsView::GetDocument() const
+//   { return reinterpret_cast<CDynamicBallsDoc*>(m_pDocument); }
+//#endif
+//

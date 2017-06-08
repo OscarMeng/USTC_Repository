@@ -1,7 +1,7 @@
 #pragma once
 #include "afx.h"
-
 #include "driver.h"
+
 class CPCI1752U :public CObject
 {
 public:
